@@ -18,6 +18,6 @@ provider "azurerm" {
 
 resource "random_pet" "sg" {}
 
-output "web-address" {
+output "random_pet" {
   value = random_pet.sg.id
 }
