@@ -1,4 +1,4 @@
-name: "Terraform - Ubuntu latest"
+name: "Terraform - Windows latest"
 
 on:
   push:
@@ -9,7 +9,7 @@ on:
 jobs:
   terraform:
     name: "Terraform"
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v2

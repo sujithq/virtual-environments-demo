@@ -1,4 +1,4 @@
-name: "Terraform - Ubuntu latest"
+name: "Terraform - Ubuntu 20.04"
 
 on:
   push:
@@ -9,7 +9,7 @@ on:
 jobs:
   terraform:
     name: "Terraform"
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
       - name: Checkout
         uses: actions/checkout@v2
